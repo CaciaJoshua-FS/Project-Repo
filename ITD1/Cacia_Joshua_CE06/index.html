@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CE06 HTML Forms</title>
+</head>
+<!--- Joshua Cacia
+      07-29-21
+      CE06 HTML forms-->
+<body>
+    <h1>Fill'er Up</h1>
+    <form id="userInfo">
+        <label for="userGallons"># of Gallons to Convert</label><input type="number" id="userGallons" step="any" min="0" required>
+        <br>
+        <fieldset>
+            <legend> Which measurement would you like to convert too?</legend>
+        <label for="quarts">Quarts</label><input type="radio" id="quarts" name="measurementType" value="Quarts" checked>
+        <label for="pints">Pints</label><input type="radio" id="pints" name="measurementType" value="Pints" >
+        <label for="cups">Cups</label><input type="radio" id="cups" name="measurementType" value="Cups" >
+        </fieldset>
+        <h2>Converted value</h2>
+        <input type="button" id="convert" value="Convert">
+        <br>
+        <label for="totalQuarts">Quarts</label><input type="number" id="totalQuarts" value="Quarts" >
+        <br>
+        <label for="toatlPints">Pints</label><input type="number" id="totalPints" value="Pints" >
+        <br>
+        <label for="totalCups">Cups</label><input type="number" id="totalCups" value="Cups" >
+    
+    <h2 id=secondId>Movie Star</h2>
+    <form id="movieInfo">
+        <label for="userDvd"> How many Dvd's do you have?</label><input type="number" id="userDvd" value="DVD" step="1" min="0" required>
+        <label for="userBlueray">How many Blue-ray's do you have?</label><input type="number" id="userBlueray" value="Blue-ray" step="1" min="0" required>
+        <label for="userUv">How many Ultra-Violets do you have?</label><input type="number" id="userUv" value="Ultra-Violets" step="1" min="0" required>
+        <input type="button" id="calcDvd" value="Submit">
+        <h2 id="movies"></h2>
+        <img id="gold" src="IMG/goldStar.jpg" height="360" style="visibility: hidden;" >
+        <img id="silver" src="IMG/silverStar.jpg" height="360" style="visibility: hidden;" >
+        <img id="bronze" src="IMG/bronzeStar.jpg" height="360" style="visibility: hidden;" >
+    
+
+
+
+    </form>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CE07 Final Project</title>
+</head>
+<!--Joshua Cacia
+7-30-21
+CE07 Final Project-->
+<body>
+    <form id="bmi">
+        <h1> bmi tracker</h1>
+        <p> First we have to collect some data to calculate results</p>
+        <input type="number" id="feet" step="1" min="0" max="9"required><label for="feet">Height in feet</label>
+        <input type="number" id="inches" step="0.01" min="0" max="12" required><label for="inches">Height in inches </label>
+        <br><br> 
+        <input type="number" id="weight" step="any" min="0" max="1400" required><label for="weight">Weight in lbs</label>
+        <br><br>
+        <input type="button" id="calculateBMI" value="Calculate your BMI">
+        <h1 id="results"></h1>
+        <img id="underWeight" src="IMG/underWeight.jpg" height="360" style="visibility: hidden;"> 
+        <img id="healthyWeight" src="IMG/healthyWeight.jpg" height="360" style="visibility: hidden;">
+        <img id="overWeight" src="IMG/overWeight.jpg" height="360" style="visibility: hidden;">
+        <img id="obeseWeight" src="IMG/obeseWeight.jpg" height="360" style="visibility: hidden;">
+        <img id="extremelyObese" src="IMG/extremeObeseWeight.jpg" height="360" style="visibility: hidden;">
+     </form>
+    <script src="JS/script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,18 @@
+body{
+    background-color: lightblue;
+}
+h1{
+color: rgb(39, 2, 43);
+font-family: cursive;
+font-size: xx-large;
+}
+p1{
+color:violet;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: medium;
+}
+h3{
+color: firebrick;
+font-family: fantasy;
+font-size: x-large;
+}
