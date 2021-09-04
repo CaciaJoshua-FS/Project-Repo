@@ -1,0 +1,392 @@
+/* 
+ADJUSTING CSS BELOW IS NOT NECESSARY
+You may choose to practice css by making changes to visuals
+*/
+
+html {
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #3d2514;
+    background-image: url(../img/burger-bg.png);
+    background-repeat: repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: normal;
+}
+    
+a, 
+a:focus, 
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    background-color: #ffc045;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.button {
+    background-color: #bf2222;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 16px 40px;
+    line-height: normal;
+    display: inline-block;
+}
+
+.button:hover {
+    color:#fff;
+    background-color:#ffc045;
+}
+
+.form-field {
+    box-shadow: none;
+    color: #3d3d3d;
+    border-color: #bebebe;
+    font-size: 0.75rem;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 30px 0;
+    background-color: #3d2514;
+    color: #ffffff;
+}
+
+
+/* 
+
+ELEMENTS THAT NEED FONT SIZING OR LAYOUT APPLIED
+
+- Utilize em, rem to control responsive font sizing for any typography
+- Flexbox and/or CSS Grid to control layout for at least one of the following sections: Hero, Menu, Features or Footer
+
+*/
+
+.container {
+
+   
+}
+
+.section-title {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.section-subtitle {
+    font-weight: 500;
+    margin-bottom: 28px;
+    text-align: center;
+    font-size: 32px;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.hero-item {
+    
+
+}
+
+.hero-left {
+    padding-top: 5rem;
+    text-align: center;
+    width: 50%;
+
+}
+
+.hero-right {
+    width: 40%;
+
+}
+
+.hero-right img {
+    display: block;
+    width: 55%;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    height: 70%;
+    padding-left: 2rem;
+
+}
+
+.hero-title {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 4px 5px #fee7ba;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.hero-subtitle {
+    font-weight: 500;
+    font-size: 24px;
+   
+}
+
+/* Menu */
+
+.menu {
+    margin: 30px;
+    background-color: rgba(255, 192, 69, 0.8);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    width: 40%;
+}
+
+.menu-item-left{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    flex-basis: 35%;
+    height: 35%;
+    width: 35%;
+}
+.menu-item-right{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    flex-basis: 35%;
+    height: 35%;
+    width: 35%;
+  
+}
+
+.menu-item-left img {
+    flex-direction: column;
+    display: flex;
+    flex-basis: 35%;
+    flex: 2;
+    width: 35%;
+    height: 35%;
+
+}
+.menu-item-right img{
+    flex-direction: column-reverse;
+    display: flex;
+    flex-basis: 2;
+    width: 35%;
+    height: 35%;
+}
+
+
+.menu-burger-left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35%;
+    flex: 2;
+    font-size: 28px;
+
+    
+}
+.menu-burger-right{
+    flex-direction: column;
+    font-size: 28px;
+    flex-basis: 35%;
+    display: flex;
+   
+}
+
+.menu-description-left {
+    font-size: 20px;
+    text-align: center;
+}
+.menu-description-right {
+    font-size: 20px;
+    text-align: center;
+}
+
+.price {
+    background-color: #bf2222;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 16px 40px;
+    line-height: normal;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    text-align: center;
+    float: inline-start;
+    width: 35%;
+}
+.price2 {
+    background-color: #bf2222;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 16px 40px;
+    line-height: normal;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    float: inline-end;
+    width: 35%;
+}
+
+
+
+/* Features */
+
+.features { margin: 30px;
+
+}
+
+.features-item {
+
+}
+
+
+/* Footer Styles */
+.footer-container {
+
+}
+
+.footer-item {
+
+}
+
+/* 
+ADD MEDIA QUERIES BELOW 
+
+- Must adjust at least one element for 4 breakpoints
+
+*/
+@media(max-width: 600px)
+{
+   .menu{flex-direction: column;}
+   .features{flex-direction: column; }
+   .hero{flex-direction: column; } 
+   .hero-title{font-size: 40px;}
+   .hero-subtitle{font-size: 20px;}
+   .section-title{font-size: 32px;}
+   .section-subtitle{font-size: 24px;}
+   .menu-burger-left{font-size: 28px;}
+   .menu-burger-right{font-size: 28px;}
+   .menu-description-right{font-size: 16px;}
+   .menu-description-left{font-size: 16px;}
+   .h3{font-size: 24px;}
+   .p{font-size: 16px;}
+}
+@media(min-width: 600px)
+{
+    .menu{flex-direction: column;}
+    .hero{flex-direction: column;}
+    .features{flex-direction: column;}
+    .hero-title{font-size: 40px;}
+    .hero-subtitle{font-size: 20px;}
+    .section-title{font-size: 32px;}
+    .section-subtitle{font-size: 24px;}
+    .menu-burger-left{font-size: 28px;}
+    .menu-burger-right{font-size: 28px;}
+    .menu-description-right{font-size: 16px;}
+    .menu-description-left{font-size: 16px;}
+    .h3{font-size: 24px;}
+    .p{font-size: 16px;}
+
+}
+@media(max-width: 768px)
+{
+    .hero{flex-direction: row;}
+    .menu{flex-direction: row;}
+    .features{flex-direction: row;}
+    .hero-title{font-size: 40px;}
+    .hero-subtitle{font-size: 20px;}
+    .section-title{font-size: 32px;}
+    .section-subtitle{font-size: 24px;}
+    .menu-burger-left{font-size: 28px;}
+    .menu-burger-right{font-size: 28px;}
+    .menu-description-right{font-size: 20px;}
+    .menu-description-left{font-size: 20px;}
+    .h3{font-size: 24px;}
+    .p{font-size: 20px;}
+}
+@media(min-width: 992px)
+{
+        .hero{flex-direction: row;}
+        .menu{flex-direction: row;}
+        .features{flex-direction: row;}
+        .hero-title{font-size: 50px;}
+        .hero-subtitle{font-size: 24px;}
+        .section-title{font-size: 50px;}
+        .section-subtitle{font-size: 32px;}
+        .menu-burger-left{font-size: 28px;}
+        .menu-burger-right{font-size: 28px;}
+        .menu-description-right{font-size: 16px;}
+        .menu-description-left{font-size: 16px;}
+        .h3{font-size: 24px;}
+        .p{font-size: 16px;}
+
+}
+@media(max-width: 1200px){
+    .hero{flex-direction: row;}
+        .menu{flex-direction: row;}
+        .features{flex-direction: row;}
+        .hero-title{font-size: 50px;}
+        .hero-subtitle{font-size: 24px;}
+        .section-title{font-size: 50px;}
+        .section-subtitle{font-size: 32px;}
+        .menu-burger-left{font-size: 28px;}
+        .menu-burger-right{font-size: 28px;}
+        .menu-description-right{font-size: 16px;}
+        .menu-description-left{font-size: 16px;}
+        .h3{font-size: 24px;}
+        .p{font-size: 16px;}
+
+}
+
