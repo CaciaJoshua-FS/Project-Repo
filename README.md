@@ -1,33 +1,6 @@
 
-# Welcome to Project & Portfolio! ...🚀
-
-This repository will be used to keep track of research and development conducted in this class. Follow the instructions below to get started.
-
-## Step 1
-
-Review the [About](./docs/01_about/README.md) readme and all of the links it provides. 
-
-
-## Step 2
-
-Begin required research for the first milestone (see FSO). 
-
-
-## Step 3
-
-Attend the first Live Session. If you are unable to attend the upcoming Live Session, view the archive or summary video which is typically posted to the Live Sessions assignment the following day. You can then begin to work on your version control and milestone assignments.  
-
-
-<br>
-
-
-### Next Steps...   
-After completing the above steps, feel free to begin updating this read me where indicated below. Be sure to also delete this paragraph and everything above it. Remember to update this document each week to receive proper credit for the weekly "Milestone" assignment. 
-
-<br>
-
-# Project
-### First Last / Student ID: 000####### 
+# Milestone
+### Joshua Cacia / Student ID:#0005005568 
  Hello my name is Joshua Cacia. I am a student from Chicago, Illinois. The purpose of this repository is to practice development using version control. This work will help me begin to build a portfolio of skills and accomplishment that can be shared in the future. 
  
 Here's some additional information about me...
@@ -49,7 +22,7 @@ Each week, I will summarize my milestone activity and progress by including a **
 
 <br>
 
-**Week 1**: Replace this paragraph with a brief "stand-up" (use steps 1-3 above as a guide on what to write about). Summarize your most recent milestone activity and work. What did you achieve? Are there any challenges? Describe your next steps and how you plan to prioritize your time. 3-4 sentences is acceptable. A stand-up is meant to be a succinct update on how things are going. Use this as an opportunity to report out on progress. 
+**Week 1**: This last week I have challenged myself to familiarize myself with both Git and the terminal. Learning two new programs within the week has proved to be difficult and time consuming but I have stuck too it and continued to try until I prevailed. My plan of action for the future is to continue learning about Git and terminal until I can navigate through them with ease.
 
 **Week 2**: Next Stand up... Milestone 2  
 
